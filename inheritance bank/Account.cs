@@ -53,7 +53,7 @@ namespace inheritance_bank
             }
             else
             {
-                Console.Write("debit exceeded balance");
+                Console.Write("debit exceeded balance, ");
                 Ok = false;
             }
             return Ok;

@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//tests the methods
         {
             decimal totalCredit = 0.0M;
             SavingsAccount sa = new SavingsAccount(1000.25M, 0.1M);
@@ -11,7 +11,7 @@
             totalCredit= sa.CalInterest();
             Console.WriteLine("total intrest: {0:C}", totalCredit);
             sa.Credit(totalCredit);
-            Console.WriteLine("Ending balance is: {0:C}", sa.Balance);
+            Console.WriteLine("Ending balance is : {0:C}", sa.Balance);
             Console.WriteLine();
 
             CheckingAccount ca = new CheckingAccount(1000.25M, 5.50M);
